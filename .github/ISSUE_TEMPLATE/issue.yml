@@ -1,6 +1,6 @@
 name: 🐞 Bug Report
 description: Create a report to help us resolve the issue
-title:
+title: ""
 labels: [Bug, Needs Triage]
 body:
 - type: checkboxes
@@ -34,20 +34,23 @@ body:
   validations:
     required: false
 - type: input
-  label: Unity Version
+  attributes:
+    label: Unity Version
   validations:
     required: true
 - type: input
-  label: Crest Version
+  attributes:
+    label: Crest Version
   validations:
     required: true
 - type: dropdown
-  label: Render Pipeline
-  options:
-  - Built-In
-  - High Definition
-  - Universal
-  - Custom
+  attributes:
+    label: Render Pipeline
+    options:
+    - Built-In
+    - High Definition
+    - Universal
+    - Custom
   validations:
     required: true
 - type: textarea
