@@ -59,9 +59,11 @@ body:
 - type: dropdown
   attributes:
     label: Editor or Standalone
+    description: Choose when the issue occurs. Select all that apply.
     multiple: true
     options:
-    - Editor
+    - Editor (Edit Mode)
+    - Editor (Play Mode)
     - Standalone
   validations:
     required: true
