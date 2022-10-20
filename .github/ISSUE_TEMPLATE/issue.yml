@@ -12,13 +12,13 @@ body:
 - type: textarea
   attributes:
     label: Current Behavior
-    description: A concise description of what you're experiencing.
+    description: A concise description of what you're experiencing. Screenshots or videos are very helpful.
   validations:
     required: false
 - type: textarea
   attributes:
     label: Expected Behavior
-    description: A concise description of what you expected to happen.
+    description: A concise description of what you expected to happen. Screenshots or videos are very helpful.
   validations:
     required: false
 - type: textarea
@@ -35,16 +35,20 @@ body:
 - type: input
   attributes:
     label: Unity Version
+    description: Including minor, i.e. 2019.1.0f2
+    placeholder: 2020.3.0f0
   validations:
     required: true
 - type: input
   attributes:
     label: Crest Version
+    description: You can find the version in Constants.cs.
   validations:
     required: true
 - type: dropdown
   attributes:
     label: Render Pipeline
+    description: Choose the render pipeline you are currently using even if not relevant.
     options:
     - Built-In
     - High Definition
@@ -52,11 +56,20 @@ body:
     - Custom
   validations:
     required: true
+- type: dropdown
+  attributes:
+    label: Editor or Standalone
+    options:
+    - Editor
+    - Standalone
+    - Both
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Environment
     description: |
-      examples:
+      Examples:
         - **OS**: Windows 10
         - **GPU**: GTX 1080
     value: |
