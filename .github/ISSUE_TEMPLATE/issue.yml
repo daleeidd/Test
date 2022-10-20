@@ -14,8 +14,8 @@ body:
     label: Have you read the troubleshooting guide and frequently asked questions?
     description: |
       Please check the following resources as they may help with your issue:
-      [Frequent Issues](https://crest.readthedocs.io/en/stable/user/getting-started.html#frequent-setup-issues)
-      [Frequently Asked Questions](https://crest.readthedocs.io/en/stable/user/faq.html)
+      - [Frequent Issues](https://crest.readthedocs.io/en/stable/user/getting-started.html#frequent-setup-issues)
+      - [Frequently Asked Questions](https://crest.readthedocs.io/en/stable/user/faq.html)
     options:
     - label: I have read the linked documentation and could not resolve my issue.
       required: true
