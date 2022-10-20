@@ -59,10 +59,10 @@ body:
 - type: dropdown
   attributes:
     label: Editor or Standalone
+    multiple: true
     options:
     - Editor
     - Standalone
-    - Both
   validations:
     required: true
 - type: textarea
