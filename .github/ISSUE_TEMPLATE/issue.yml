@@ -12,30 +12,30 @@ body:
 - type: textarea
   attributes:
     label: Current Behavior
-    description: A concise description of what you're experiencing. Screenshots or videos are very helpful.
+    description: A concise description of what you're experiencing. **Screenshots or videos** are very helpful.
   validations:
     required: false
 - type: textarea
   attributes:
     label: Expected Behavior
-    description: A concise description of what you expected to happen. Screenshots or videos are very helpful.
+    description: A concise description of what you expected to happen. **Screenshots or videos** are very helpful.
   validations:
     required: false
 - type: textarea
   attributes:
     label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
+    description: Steps to reproduce the behavior. Reproducing the issue in one of our example scenes will help a lot.
     placeholder: |
-      1. In this environment...
-      2. With this config...
-      3. Run '...'
+      1. Open main.unity...
+      2. Do this...
+      3. Enter play mode...
       4. See error...
   validations:
     required: false
 - type: input
   attributes:
     label: Unity Version
-    description: Including minor, i.e. 2019.1.0f2
+    description: Provide the full version, including the patch portion, i.e. 2019.1.0f2.
     placeholder: 2020.3.0f0
   validations:
     required: true
