@@ -1,4 +1,4 @@
-name: 🐞 Bug Report
+name: Bug Report
 description: Create a report to help us resolve the issue
 labels: [Bug, Needs Triage]
 body:
