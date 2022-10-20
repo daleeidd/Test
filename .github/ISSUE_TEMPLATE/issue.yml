@@ -11,7 +11,7 @@ body:
       required: true
 - type: checkboxes
   attributes:
-    label: Have you read the troubleshooting guide and frequently asked questions?
+    label: Have you checked the documentation to resolve your problem?
     description: |
       Please check the following resources as they may help with your issue:
       - [Frequent Issues](https://crest.readthedocs.io/en/stable/user/getting-started.html#frequent-setup-issues)
