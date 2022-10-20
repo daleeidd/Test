@@ -4,6 +4,7 @@ labels: [Enhancement]
 body:
 - type: textarea
   attributes:
+    label: Description
     description: Please describe the desired feature/behaviour. Supporting images/mockups, or example reference videos are very helpful to communicate ideas.
   validations:
     required: true
